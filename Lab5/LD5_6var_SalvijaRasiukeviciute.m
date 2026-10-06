@@ -6,7 +6,14 @@ valiutos = struct(...
 );
 
 disp('Pradiniai valiutu kursai:')
-disp(valiutos)
+disp('USD:')
+disp(valiutos.USD)
+
+disp('GBP:')
+disp(valiutos.GBP)
+
+disp('PLN:')
+disp(valiutos.PLN)
 
 valiutos.USD.supirkimas = 1.10;
 
